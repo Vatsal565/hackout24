@@ -15,7 +15,7 @@ const Main = () => {
         <h1 className="text-8xl tracking-tighter font-sans bg-gradient-to-r from-amber-200 to-amber-900 text-transparent bg-clip-text">
           crop sense
         </h1>
-        <div className="flex items-center  text-2xl justify-center">
+        <div className="flex items-center text-2xl justify-center">
           <p className="text-center mt-9 text-xl font-sans text-amber-100 max-w-lg">
             Revolutionize your fields with smart farming solutions,
             Empower your harvest with precision technology,

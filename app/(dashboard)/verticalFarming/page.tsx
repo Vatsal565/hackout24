@@ -16,7 +16,7 @@ export default function VerticalFarming() {
                 </div>
             </div>
 
-            <div className="w-full flex flex-col justify-center items-center">
+            <div className="w-full h-auto flex flex-col justify-center items-center mb-10">
                 <h1 className="my-9 text-green-950 text-4xl font-semibold">
                 Advantages of Vertical Farm technologies
                 </h1>

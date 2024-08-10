@@ -51,7 +51,7 @@ export default function InfoCards() {
 
   return <div>
     
-    <div className="w-full flex justify-around items-center mt-7 h-[90vh] max-[1800px]:flex-wrap">
+    <div className="w-full flex justify-around items-center mt-7 h-auto max-[1800px]:flex-wrap mb-10">
 
       {
         info.map(item => <div className="relative w-[350px] h-[190px] bg-white rounded-[20px] shadow2 customStyle hover:h-[400px] my-11 group">
