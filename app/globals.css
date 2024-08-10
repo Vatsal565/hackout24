@@ -67,3 +67,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities{
+  .customStyle{
+    transition: 0.5s;
+  }
+}
