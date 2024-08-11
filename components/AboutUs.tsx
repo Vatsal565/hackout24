@@ -10,6 +10,9 @@ export default function AboutUs() {
 						<div className="text-5xl font-bold tracking-tighter bg-gradient-to-b from-[#749C75] to-[#B2BD7E] text-transparent bg-clip-text">
 							Meet Our Team
 						</div>
+						<p className="mt-2 mb-10 dark:text-black">
+							Meet our AgriTech Enthusiasts.
+						</p>
 						<div className="flex justify-center flex-wrap">
 							<Avatar1
 								modelPath="/avatar1.glb"
