@@ -75,7 +75,6 @@
 
   .wave {
     background: url("/wave.png");
-    filter: brightness(0.4);
     background-size: var(--position-x) var(--position-y);
   }
   #wave1 {

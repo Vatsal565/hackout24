@@ -5,7 +5,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
 	return (
-		<div className="container-footer  relative flex flex-col flex-wrap justify-between gap-y-10  bg-gradient-to-b from-[#E9D985] via-[#749C75] to-[#B2BD7E] px-4 py-10 md:px-32 ">
+		<div className="container-footer  relative flex flex-col flex-wrap justify-between gap-y-10  bg-gradient-to-b from-[#E9D985] via-[#749C75] to-[#B2BD7E] px-4 py-10 md:px-32 mt-10">
 			<div className="z-10">
 				<div
 					className="wave absolute -top-16 left-0 z-50 h-[4rem] w-full "
