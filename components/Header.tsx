@@ -24,7 +24,7 @@ export default function Header() {
 
     return (
         <div className={`fixed top-0 left-0 w-full h-24 px-8 flex justify-between items-center transition-colors duration-300 z-10 ${isScrolled ? "bg-amber-100" : "bg-transparent"}`}>
-            <div>Logo</div>
+            <div><img height={50} width={50} src="/logo.jpeg" alt="logo" className="rounded-full" /></div>
             <Navigation />
         </div>
     )
