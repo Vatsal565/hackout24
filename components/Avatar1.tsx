@@ -38,7 +38,7 @@ const Avatar: React.FC<AvatarProps> = ({ modelPath, name, role, linkedinUrl, ema
         <OrbitControls enableZoom={false} />
       </Canvas>
       <div
-        className={`absolute bottom-3 left-1/2 transform -translate-x-1/2 p-4 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg shadow-lg border border-gray-300 transition-all duration-300 ${
+        className={`absolute bottom-3 left-1/2 transform -translate-x-1/2 p-4 bg-gradient-to-r from-[#E9D985] to-[#749C75] text-white rounded-lg shadow-lg border border-gray-300 transition-all duration-300 ${
           hovered ? 'w-72 opacity-100' : 'w-0 opacity-0'
         }`}
       >
