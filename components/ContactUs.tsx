@@ -47,9 +47,9 @@ function ContactUs() {
 		form.reset({name: "", email: "", message: ""})
 	}
 	return (
-		<main className="mt-10 flex flex-col lg:px-24 px-4 gap-4 justify-center mb-10">
-			<div className="flex gap-4 items-center font-bold"><TrendingUp color="#256EFF" /> Send a Message</div>
-			<div className="text-5xl font-bold tracking-tighter bg-gradient-to-b from-[#183EC2] to-[#466bff] dark:bg-gradient-to-b dark:from-[#183EC2] dark:to-[#eaeefe] text-transparent bg-clip-text">Questions about Financio? Get in touch</div>
+		<main className="mt-48 flex flex-col lg:px-24 px-4 gap-4 justify-center mb-10">
+			<div className="flex gap-4 items-center font-bold"><TrendingUp color="#E9D985" /> Send a Message</div>
+			<div className="text-5xl font-bold tracking-tighter bg-gradient-to-b from-[#E9D985] to-[#749C75] dark:bg-gradient-to-b dark:from-[#183EC2] dark:to-[#eaeefe] text-transparent bg-clip-text">Questions about Crop Sense? Get in touch</div>
 			<div className="font-light">Please do not hesitate to contact us by sending a message.</div>
 			<Form {...form}>
 				<form onSubmit={form.handleSubmit(onSubmit)} className="mt-10 space-y-8">
@@ -58,7 +58,7 @@ function ContactUs() {
 						name="name"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel className="flex gap-4 items-center"><User color="#256EFF" /> Name </FormLabel>
+								<FormLabel className="flex gap-4 items-center"><User color="#E9D985" /> Name </FormLabel>
 								<FormControl>
 									<Input placeholder="Name" {...field} />
 								</FormControl>
@@ -71,7 +71,7 @@ function ContactUs() {
 						name="email"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel className="flex gap-4 items-center"><Mail color="#256EFF" /> Email </FormLabel>
+								<FormLabel className="flex gap-4 items-center"><Mail color="#E9D985" /> Email </FormLabel>
 								<FormControl>
 									<Input placeholder="Email" {...field} />
 								</FormControl>
@@ -84,7 +84,7 @@ function ContactUs() {
 						name="message"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel className="flex gap-4 items-center"><MessageCircle color="#256EFF" /> Message </FormLabel>
+								<FormLabel className="flex gap-4 items-center"><MessageCircle color="#E9D985" /> Message </FormLabel>
 								<Textarea
 									placeholder="Message goes here"
 									className="resize-none"
@@ -94,7 +94,7 @@ function ContactUs() {
 							</FormItem>
 						)}
 					/>
-					<Button type="submit" className="flex gap-4 items-center w-full border-[#256EFF]" variant="outline"><LogOut />Submit</Button>
+					<Button type="submit" className="flex gap-4 items-center w-full border-[#E9D985]" variant="outline"><LogOut />Submit</Button>
 				</form>
 			</Form>
 		</main>
