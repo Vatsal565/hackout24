@@ -29,6 +29,7 @@ const Main = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
