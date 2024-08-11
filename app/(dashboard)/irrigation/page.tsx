@@ -22,7 +22,7 @@ export default function Drip() {
                 <div className="flex flex-col gap-5 items-center my-7">
                     <img src="/2.jpeg" alt="fresh" className="w-24 h-24"/>
                     <div className="text-3xl font-semibold">Water Efficiency</div>
-                    <div className="w-[600px] text-center"> It minimizes water waste by delivering water directly to the plant's root zone, reducing evaporation and runoff.</div>
+                    <div className="w-[600px] text-center"> It minimizes water waste by delivering water directly to the plant`&apos;`s root zone, reducing evaporation and runoff.</div>
                 </div>
                 <div className="flex flex-col gap-5 items-center my-7">
                     <img src="/3.jpeg" alt="fresh" className="w-24 h-24"/>
