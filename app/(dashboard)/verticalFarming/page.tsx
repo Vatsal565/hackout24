@@ -23,7 +23,7 @@ export default function VerticalFarming() {
                 <div className="flex flex-col gap-5 items-center my-7">
                     <img src="/always_fresh.png" alt="fresh" className="w-24 h-24"/>
                     <div className="text-3xl font-semibold">Always-fresh produce</div>
-                    <div className="w-[600px] text-center">Vertical farms can be situated in urban areas so that produce can be delivered to retailers and consumers when it's at its freshest</div>
+                    <div className="w-[600px] text-center">Vertical farms can be situated in urban areas so that produce can be delivered to retailers and consumers when it`&apos;`s at its freshest</div>
                 </div>
                 <div className="flex flex-col gap-5 items-center my-7">
                     <img src="/pesticides_free.png" alt="fresh" className="w-24 h-24"/>
@@ -50,7 +50,7 @@ export default function VerticalFarming() {
                     <img src="/eco_friendly.png" alt="fresh" className="w-24 h-24"/>
                     <div className="text-3xl font-semibold">Environmental friendliness
                     </div>
-                    <div className="w-[600px] text-center">Short supply chains drastically reduce carbon footprints, and controlled environment agriculture methods don't impact the ecology</div>
+                    <div className="w-[600px] text-center">Short supply chains drastically reduce carbon footprints, and controlled environment agriculture methods don`&apos;`t impact the ecology</div>
                 </div>
 
                 <div className="flex flex-col gap-5 items-center my-7">

@@ -54,7 +54,7 @@ export default function InfoCards() {
     <div className="w-full flex justify-around items-center mt-7 h-auto max-[1800px]:flex-wrap mb-10">
 
       {
-        info.map(item => <div className="relative w-[350px] h-[190px] bg-white rounded-[20px] shadow2 customStyle hover:h-[400px] my-11 group">
+        info.map(item => <div key={item.id} className="relative w-[350px] h-[190px] bg-white rounded-[20px] shadow2 customStyle hover:h-[400px] my-11 group">
           <div className="absolute w-[250px] h-[150px] bg-white shadow2 left-[50%] top-[-50px] translate-x-[-50%] rounded-[20px] overflow-hidden customStyle group-hover:w-[300px] group-hover:h-[200px]">
             <img src={item.photo} className="absolute top-0 left-0 w-[100%] h-[100%] object-cover object-center"></img>
           </div>
